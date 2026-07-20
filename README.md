@@ -1,13 +1,13 @@
-# 🌤️ Weather App
+#  Weather App
 
-A clean and responsive Weather Web Application built with HTML, CSS, and JavaScript to display real-time weather, temperature, humidity, and wind speed.
+A clean Weather Web Application built with HTML, CSS and JavaScript to display real-time temperature, humidity and wind speed.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - HTML5 & CSS3
 - JavaScript (Fetch API)
 
-## 🚀 Quick Start
+##  Quick Start
 Open `index.html` in any browser.
 
 ---
-*Made by Rishabh*
+Made by Rishabh ❤️
