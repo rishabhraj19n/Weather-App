@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="weather-card">
+
+        <div class="search-box">
+             <input
+                type="text"
+                id="city-input"
+                placeholder="Enter city name"
+            >
+
+            <button id="search-button">
+    <img src="images/search.png" alt="Search">
+                </button>
+        </div>
+       <div class="status-area">
+    <p id="loading">Loading...</p>
+    <p id="error-message"></p>
+        </div>
+
+  <div class="weather-info">
+
+    <img
+        src="images/clouds.png"
+        alt="Weather icon"
+        class="weather-icon"
+        id="weather-icon"
+    >
+    <p id="weather-condition">Sunny</p>
+
+    <h1 id="temperature">--°C</h1>
+
+    <h2 id="city-name">City Name</h2>
+
+    <div class="weather-details">
+
+        <div class="detail-box">
+            <img src="images/humidity.png" alt="Humidity">
+
+            <div>
+                <p id="humidity">--%</p>
+                <span>Humidity</span>
+            </div>
+        </div>
+
+        <div class="detail-box">
+            <img src="images/wind.png" alt="Wind speed">
+
+            <div>
+                <p id="wind-speed">-- km/h</p>
+                <span>Wind Speed</span>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+    </div>
+    <p class="credit">
+    Made by Rishabh
+</p>
+
+             <script src="script.js"></script>
+    </body>
+          </html>
